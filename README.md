@@ -26,7 +26,7 @@ $ docker run -it \
 ```console
 $ docker run -it \
     -p "38465:38465"
-    -e PASSWORD=%SERVER_PASSWORD% \
+    -e PASSWORD=CHANGE_ME \
     -v $PWD/data:/home/steam/staxel-dedicated \
     staxel_staxel:latest
 ```
